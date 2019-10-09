@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Access for /netpadd" 
+AuthUserFile /kunden/homepages/46/d267160642/htpasswd
+require user phil

@@ -1,0 +1,35 @@
+Netpadd B Alpha (v0.5) by Philipp Lenssen 2009
+- Use freely and completely at your own risk -
+Feedback to philipp.lenssen@gmail.com
+More at Netpadd.com + Blogoscoped.com
+
+
+-------------- What's Netpadd B? -----------------------
+
+Netpadd B is a text editor in particularly useful for plain non-cluttered and fast code editing, but also useful for all other text editing needs. Netpadd B is created in the form of a free browser-based application running as a Google Chrome "Application Shortcut" (it also works in some other browsers like Firefox/ Prism). You can install it locally or on your server; the HTML/JS/CSS front-end communicates via Ajax with the PHP5 back-end. On your server, Netpadd lets you manage text files (and upload other types of files) without FTP. Netpadd B is the cousin of older Netpadd, which was a compiled desktop app. Not needed for Netpadd B are MySQL, Flash, or Java.
+
+
+-------------- Setup -----------------------------------
+
+Windows setup steps (on the desktop):
+1. Install WAMP (a Windows Apache/ MySQL/ PHP installation: http://www.wampserver.com/en/
+2. If you haven't already, install Chrome: http://www.google.com/chrome
+3. Drop the "netpadd" folder in your localhost directory and make sure it can be run at http://localhost/netpadd/
+4. In Netpadd's "tools" folder, connect your preferred text/ code file extensions using the .reg (regedit) routines
+5. You should now be able to double-click your text files, and see them being opened automatically with Netpadd B (if not, please drop me an email)
+
+Setup (on your live server):
+1. Create a password-protected sub-directory on your server, drop the Netpadd files into it; careful, anyone with access to that directory can edit your server's file, upload programs, etc. -- it's similar to giving someone full access to your FTP credentials. Note that Netpadd will check for the availability of an .htaccess file in its folder via the "usesCorrectAuthentication()" function in site.php5
+2. If you haven't already, install Chrome: http://www.google.com/chrome (Firefox should also do, but is not as speedy at times)
+3. Access that folder via https, e.g. https://example.com/administration-with-netpadd/ -- if you wish to not use https (with is not suggested for security reasons), edit the line "$mustUseSSL = true" in site.php5
+
+
+-------------- Want to add features to Netpadd? ---------
+
+This section isn't a tutorial but simply a tip to get you started on your own: If you know JavaScript and want to add your own menu entry to the program, open the file "default.js". Search for the string "handleReplace" and follow the calls from there to get an idea of how the program works. If you have questions or cool additions, please email me.
+
+
+-------------- Further credits --------------------------
+
+Some icons are Creative Commons licensed by http://www.famfamfam.com/ and http://www.fatcow.com/free-icons/index.bml
+The Doid font is based on Google Android's Droid font, with some readability optimizations made in regard to programming characters like semicolon, comma etc. (optimizations on my specific system at least, using a laptop with ClearType disabled). I originally wanted to use Fixedsys but Chrome doesn't recognize that system font at the moment, and the TrueType replacements didn't have the same effect.

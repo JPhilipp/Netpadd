@@ -1,0 +1,160 @@
+Windows Registry Editor Version 5.00
+
+; TXT
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\.txt]
+[-HKEY_CURRENT_USER\Software\Classes\.txt]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.txt]
+
+[HKEY_CLASSES_ROOT\.txt]
+@="txt_auto_file"
+
+[HKEY_CLASSES_ROOT\txt_auto_file]
+@="Web Search"
+
+[HKEY_CLASSES_ROOT\txt_auto_file\shell]
+
+[HKEY_CLASSES_ROOT\txt_auto_file\shell\open]
+
+[HKEY_CLASSES_ROOT\txt_auto_file\shell\open\command]
+@="\"C:\\Users\\philipp\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" -disable-popup-blocking -start-maximized -enable-remote-fonts -disable-plugins -disable-java --app=\"http://localhost/netpadd/?path=%1\""
+
+
+; JS
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\.js]
+[-HKEY_CURRENT_USER\Software\Classes\.js]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.js]
+
+[HKEY_CLASSES_ROOT\.js]
+@="js_auto_file"
+
+[HKEY_CLASSES_ROOT\js_auto_file]
+@="Web Search"
+
+[HKEY_CLASSES_ROOT\js_auto_file\shell]
+
+[HKEY_CLASSES_ROOT\js_auto_file\shell\open]
+
+[HKEY_CLASSES_ROOT\js_auto_file\shell\open\command]
+@="\"C:\\Users\\philipp\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" -disable-popup-blocking -start-maximized -enable-remote-fonts -disable-plugins -disable-java --app=\"http://localhost/netpadd/?path=%1\""
+
+
+; CSS
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\.css]
+[-HKEY_CURRENT_USER\Software\Classes\.css]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.css]
+
+[HKEY_CLASSES_ROOT\.css]
+@="css_auto_file"
+
+[HKEY_CLASSES_ROOT\css_auto_file]
+@="Web Search"
+
+[HKEY_CLASSES_ROOT\css_auto_file\shell]
+
+[HKEY_CLASSES_ROOT\css_auto_file\shell\open]
+
+[HKEY_CLASSES_ROOT\css_auto_file\shell\open\command]
+@="\"C:\\Users\\philipp\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" -disable-popup-blocking -start-maximized -enable-remote-fonts -disable-plugins -disable-java --app=\"http://localhost/netpadd/?path=%1\""
+
+
+; PHP
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\.php]
+[-HKEY_CURRENT_USER\Software\Classes\.php]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.php]
+
+[HKEY_CLASSES_ROOT\.php]
+@="php_auto_file"
+
+[HKEY_CLASSES_ROOT\php_auto_file]
+@="Web Search"
+
+[HKEY_CLASSES_ROOT\php_auto_file\shell]
+
+[HKEY_CLASSES_ROOT\php_auto_file\shell\open]
+
+[HKEY_CLASSES_ROOT\php_auto_file\shell\open\command]
+@="\"C:\\Users\\philipp\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" -disable-popup-blocking -start-maximized -enable-remote-fonts -disable-plugins -disable-java --app=\"http://localhost/netpadd/?path=%1\""
+
+
+; PHP5
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\.php5]
+[-HKEY_CURRENT_USER\Software\Classes\.php5]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.php5]
+
+[HKEY_CLASSES_ROOT\.php5]
+@="php5_auto_file"
+
+[HKEY_CLASSES_ROOT\php5_auto_file]
+@="Web Search"
+
+[HKEY_CLASSES_ROOT\php5_auto_file\shell]
+
+[HKEY_CLASSES_ROOT\php5_auto_file\shell\open]
+
+[HKEY_CLASSES_ROOT\php5_auto_file\shell\open\command]
+@="\"C:\\Users\\philipp\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" -disable-popup-blocking -start-maximized -enable-remote-fonts -disable-plugins -disable-java --app=\"http://localhost/netpadd/?path=%1\""
+
+
+; .Python (.py)
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\.py]
+[-HKEY_CURRENT_USER\Software\Classes\.py]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py]
+
+[HKEY_CLASSES_ROOT\.py]
+@="py_auto_file"
+
+[HKEY_CLASSES_ROOT\py_auto_file]
+@="Web Search"
+
+[HKEY_CLASSES_ROOT\py_auto_file\shell]
+
+[HKEY_CLASSES_ROOT\py_auto_file\shell\open]
+
+[HKEY_CLASSES_ROOT\py_auto_file\shell\open\command]
+@="\"C:\\Users\\philipp\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" -disable-popup-blocking -start-maximized -enable-remote-fonts -disable-plugins -disable-java --app=\"http://localhost/netpadd/?path=%1\""
+
+
+; XML
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\.xml]
+[-HKEY_CURRENT_USER\Software\Classes\.xml]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.xml]
+
+[HKEY_CLASSES_ROOT\.xml]
+@="xml_auto_file"
+
+[HKEY_CLASSES_ROOT\xml_auto_file]
+@="Web Search"
+
+[HKEY_CLASSES_ROOT\xml_auto_file\shell]
+
+[HKEY_CLASSES_ROOT\xml_auto_file\shell\open]
+
+[HKEY_CLASSES_ROOT\xml_auto_file\shell\open\command]
+@="\"C:\\Users\\philipp\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" -disable-popup-blocking -start-maximized -enable-remote-fonts -disable-plugins -disable-java --app=\"http://localhost/netpadd/?path=%1\""
+
+
+; .dat
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\.dat]
+[-HKEY_CURRENT_USER\Software\Classes\.dat]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.dat]
+
+[HKEY_CLASSES_ROOT\.dat]
+@="dat_auto_file"
+
+[HKEY_CLASSES_ROOT\dat_auto_file]
+@="Web Search"
+
+[HKEY_CLASSES_ROOT\dat_auto_file\shell]
+
+[HKEY_CLASSES_ROOT\dat_auto_file\shell\open]
+
+[HKEY_CLASSES_ROOT\dat_auto_file\shell\open\command]
+@="\"C:\\Users\\philipp\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" -disable-popup-blocking -start-maximized -enable-remote-fonts -disable-plugins -disable-java --app=\"http://localhost/netpadd/?path=%1\""
